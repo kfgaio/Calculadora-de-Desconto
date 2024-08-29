@@ -1,0 +1,46 @@
+# Arquivos e diretórios comuns a ignorar em projetos Python
+
+# Ambiente virtual
+venv/
+.env/
+
+# Compilados
+*.pyc
+*.pyo
+__pycache__/
+
+# Arquivos de configuração do Python
+*.egg-info/
+*.eggs/
+*.pyd
+*.pyo
+
+# Arquivos de logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema de gerenciamento de pacotes
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Arquivos de teste
+.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.nib
+
+# Outros arquivos específicos do projeto
+*.DS_Store
+*.class
+*.jar
