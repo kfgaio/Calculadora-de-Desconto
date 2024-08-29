@@ -1,0 +1,9 @@
+valor_compra = float(input("Digite o valor da compra: R$"))
+
+#caso for maior que 100rs aplicar 15% de desconto
+if valor_compra > 100:
+    valor_final = valor_compra * 0.85  
+else:
+    valor_final = valor_compra  
+
+print(f"Valor final a ser pago: R${valor_final:.2f}")
